@@ -1,6 +1,6 @@
 FROM alpine/git as gitclone
 WORKDIR /app
-RUN git clone https://github.com/kunchalavikram1427/maven-employee-web-application.git
+RUN git clone https://github.com/Lion-Technology-Solutions/maven-employee-web-appllication.git
 
 FROM maven:3.8.2-openjdk-11 as build
 WORKDIR /app
